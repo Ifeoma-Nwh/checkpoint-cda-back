@@ -1,0 +1,46 @@
+{
+  "name": "checkpoint-cda-back",
+  "version": "1.0.0",
+  "description": "Checkpoint CDA back",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ifeoma-Nwh/checkpoint-cda-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ifeoma-Nwh/checkpoint-cda-back/issues"
+  },
+  "homepage": "https://github.com/Ifeoma-Nwh/checkpoint-cda-back#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^15.8.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.16"
+  }
+}
